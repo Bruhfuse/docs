@@ -24,15 +24,23 @@ Celo is a carbon-negative, permissionless, layer-1 blockchain with a rich ecosys
 ### What are smart contract? 
 According to Dapp University, smart contracts are where all the business logic of our applications lives. Smart contracts are in charge of reading and writing data to the blockchain, as well as executing business logic. Smart contracts are written in a programming language called Solidity, which looks a lot like Javascript.
 
-## REQUIREMENT
+# REQUIREMENT
 - A code editor or text editor, for this tutorial we will be using [Remix](https://remix.ethereum.org/).
 - An Internet Browser and a good internet connection.
   
-## PREREQUISITE 
+# PREREQUISITE 
 - Basic knowledge of [Javascript](https://www.javascript.com/).
 - Understand how Blockchain works.
 - Have a basic knowledge of [Solidity](https://soliditylang.org/).
   
+
+**A pictorial view of the front page of remix.**
+
+<img src="images\Remix.png" alt="remix img"/>
+
+ 
+### Now lets begin by creating our smart contract
+
 ##  Who this course is for:
 - Anyone who wants to get started with smart contracts.
 - Take this tutorial if you want to get a clear understanding of how the Celo blockchain works.
@@ -43,12 +51,6 @@ In order to build our smart contract we will be using Remix for developing our s
 To get started with remix click on this link (https://remix.ethereum.org/)
 
 
-**A pictorial view of the front page of remix.**
-
-<img src="images\Remix.png" alt="remix img"/>
-
- 
-### Now lets begin by creating our smart contract
 On Remix we would start by creating a new file called Product.sol. We then open the file and start with the following statements
 
 ```js
@@ -435,3 +437,6 @@ Download the Celo Extension Wallet from the Google chrome store using the link a
 After downloading and creating your wallet, you will need to fund it using the Celo Faucet. Copy the address to your wallet, click the link to the faucet above, and paste the address into the text field and confirm.
 
 Next up, on Remix, download and activate the celo plugin from the plugin manager. Connect your wallet and deploy your contract.
+
+ # Conclusion
+ Good job on successfully creating a smart contract for selling shoes on the celo blockchain, Congratulations on your achievement! 🎉
